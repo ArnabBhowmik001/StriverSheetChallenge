@@ -12,7 +12,7 @@
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>inorder;
+        vector<int>inorder;//morris traversal
         TreeNode* curr=root;
         while(curr!=NULL){
             if(curr->left==NULL){
